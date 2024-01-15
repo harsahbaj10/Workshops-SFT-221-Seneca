@@ -1,0 +1,427 @@
+<INFO> [2023-10-13 22:41:44]: Test string: This is a
+ string with embedded newline characters and 
+12345 numbers inside it as well 7890
+<INFO> [2023-10-13 22:41:44]: START indexString function
+<INFO> [2023-10-13 22:41:44]: numLines: 0 | numWords: 0 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: Check character = [T], index = 0
+<INFO> [2023-10-13 22:41:44]: numLines: 1 | numWords: 0 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: Check character = [T], index = 0
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [T]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [This is a
+ string with embedded newline characters and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 4
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 1 | numWords: 1 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=0+4-1=3
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 4
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [i], index = 5
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [i]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [is a
+ string with embedded newline characters and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 2
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 1 | numWords: 2 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=5+2-1=6
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 7
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [a], index = 8
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [a]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [a
+ string with embedded newline characters and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 1
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 1 | numWords: 3 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=8+1-1=8
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [
+], index = 9
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: NEWLINE FOUND! numLine index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 2 | numWords: 3 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 10
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [s], index = 11
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [s]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [string with embedded newline characters and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 6
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 2 | numWords: 4 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=11+6-1=16
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 17
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [w], index = 18
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [w]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [with embedded newline characters and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 4
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 2 | numWords: 5 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=18+4-1=21
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 22
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [e], index = 23
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [e]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [embedded newline characters and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 8
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 2 | numWords: 6 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=23+8-1=30
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 31
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [n], index = 32
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [n]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [newline characters and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 7
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 2 | numWords: 7 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=32+7-1=38
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 39
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [c], index = 40
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [c]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [characters and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 10
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 2 | numWords: 8 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=40+10-1=49
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 50
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [a], index = 51
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [a]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [and 
+12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 3
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 2 | numWords: 9 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=51+3-1=53
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 54
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [
+], index = 55
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: NEWLINE FOUND! numLine index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 3 | numWords: 9 | numNumbers: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: lineStarts: 56
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [1], index = 56
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [1]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [12345 numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 5
+<INFO> [2023-10-13 22:41:44]: NUMBER FOUND! numNumber index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 3 | numWords: 9 | numNumbers: 1
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: lineStarts: 56
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: numberStarts: 56
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=56+5-1=60
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 61
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [n], index = 62
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [n]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [numbers inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 7
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 3 | numWords: 10 | numNumbers: 1
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: lineStarts: 56
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: wordStarts: 62
+<INFO> [2023-10-13 22:41:44]: numberStarts: 56
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=62+7-1=68
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 69
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [i], index = 70
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [i]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [inside it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 6
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 3 | numWords: 11 | numNumbers: 1
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: lineStarts: 56
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: wordStarts: 62
+<INFO> [2023-10-13 22:41:44]: wordStarts: 70
+<INFO> [2023-10-13 22:41:44]: numberStarts: 56
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=70+6-1=75
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 76
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [i], index = 77
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [i]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [it as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 2
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 3 | numWords: 12 | numNumbers: 1
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: lineStarts: 56
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: wordStarts: 62
+<INFO> [2023-10-13 22:41:44]: wordStarts: 70
+<INFO> [2023-10-13 22:41:44]: wordStarts: 77
+<INFO> [2023-10-13 22:41:44]: numberStarts: 56
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=77+2-1=78
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 79
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [a], index = 80
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [a]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [as well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 2
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 3 | numWords: 13 | numNumbers: 1
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: lineStarts: 56
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: wordStarts: 62
+<INFO> [2023-10-13 22:41:44]: wordStarts: 70
+<INFO> [2023-10-13 22:41:44]: wordStarts: 77
+<INFO> [2023-10-13 22:41:44]: wordStarts: 80
+<INFO> [2023-10-13 22:41:44]: numberStarts: 56
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=80+2-1=81
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 82
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [w], index = 83
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [w]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [well 7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 4
+<INFO> [2023-10-13 22:41:44]: WORD FOUND! numWord index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 3 | numWords: 14 | numNumbers: 1
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: lineStarts: 56
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: wordStarts: 62
+<INFO> [2023-10-13 22:41:44]: wordStarts: 70
+<INFO> [2023-10-13 22:41:44]: wordStarts: 77
+<INFO> [2023-10-13 22:41:44]: wordStarts: 80
+<INFO> [2023-10-13 22:41:44]: wordStarts: 83
+<INFO> [2023-10-13 22:41:44]: numberStarts: 56
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=83+4-1=86
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [ ], index = 87
+<INFO> [2023-10-13 22:41:44]: Checking '\0' or 'space'
+<INFO> [2023-10-13 22:41:44]: This char either newline or space
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: Check character = [7], index = 88
+<INFO> [2023-10-13 22:41:44]: WORD or NUMBER FOUND, start with [7]
+
+<INFO> [2023-10-13 22:41:44]: Check remainding: [7890]
+<INFO> [2023-10-13 22:41:44]: nextWhite: 4
+<INFO> [2023-10-13 22:41:44]: NUMBER FOUND! numNumber index increase number by 1
+<INFO> [2023-10-13 22:41:44]: numLines: 3 | numWords: 14 | numNumbers: 2
+<INFO> [2023-10-13 22:41:44]: lineStarts: 0
+<INFO> [2023-10-13 22:41:44]: lineStarts: 10
+<INFO> [2023-10-13 22:41:44]: lineStarts: 56
+<INFO> [2023-10-13 22:41:44]: wordStarts: 0
+<INFO> [2023-10-13 22:41:44]: wordStarts: 5
+<INFO> [2023-10-13 22:41:44]: wordStarts: 8
+<INFO> [2023-10-13 22:41:44]: wordStarts: 11
+<INFO> [2023-10-13 22:41:44]: wordStarts: 18
+<INFO> [2023-10-13 22:41:44]: wordStarts: 23
+<INFO> [2023-10-13 22:41:44]: wordStarts: 32
+<INFO> [2023-10-13 22:41:44]: wordStarts: 40
+<INFO> [2023-10-13 22:41:44]: wordStarts: 51
+<INFO> [2023-10-13 22:41:44]: wordStarts: 62
+<INFO> [2023-10-13 22:41:44]: wordStarts: 70
+<INFO> [2023-10-13 22:41:44]: wordStarts: 77
+<INFO> [2023-10-13 22:41:44]: wordStarts: 80
+<INFO> [2023-10-13 22:41:44]: wordStarts: 83
+<INFO> [2023-10-13 22:41:44]: numberStarts: 56
+<INFO> [2023-10-13 22:41:44]: numberStarts: 88
+<INFO> [2023-10-13 22:41:44]: i += sp-1 -> check point i=88+4-1=91
+<INFO> [2023-10-13 22:41:44]: Check next character...
+<INFO> [2023-10-13 22:41:44]: END indexString function...
